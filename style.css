@@ -1,0 +1,113 @@
+/* IDEE A METTRE 
+    -Carousel avec incrustation des 3 meilleurs film du moments avec transition vers la droite toutes les 3 secondes
+    -Navbar sur le coté avec tout les diférents type de film / série 
+    -navbar sur le haut de page avec les informations diverses 
+    -Barre de recherche basique 
+    -
+
+
+
+
+
+
+
+
+
+/* HEADER */
+
+header{
+    background-image: url(./Header/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+/* TITRES/P */
+
+
+p{
+    color: grey;
+}
+
+h1,h2,h3,h4{
+    font-size: 50px;
+    color: black;
+    font-family: 'lato', 'arial', sans-serif;
+    font-weight: 300;
+}
+
+.home h1{
+    color: rgb(97, 93, 81);
+    font-size: 130px;
+    font-weight: 950;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* BTN */
+
+
+.btn{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 20px 20px;
+}
+.btn-full { 
+    font-size: 80px;
+    background-color: none;
+    border-radius: 15px;
+    text-align: center;
+    position: absolute;
+    margin-left: 270px;
+    margin-top: 140px;
+}
+
+
+/* MENU */
+
+
+.menu-title{
+    top: 30%;
+    color: black;
+}
+.menu-title h1{
+    color: black;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu-title h2{
+    color: black;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+ span{
+    font-weight: 100;
+    font-size: 40%;
+    position: fixed;
+    left: 2px;
+    top: -15px;
+}
+
+.pack{
+     font-size: 10px;
+     text-align: center;
+     font-weight: 200;
+     
+     top: 10px;
+     right: 30px;
+     background-color: green;
+     color: white;
+     border-radius: 14px;
+     padding: 10px;
+}
