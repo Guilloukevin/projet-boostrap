@@ -13,13 +13,33 @@
 
 
 
-/* HEADER */
+/* HEADER/BODY */
+
 
 header{
-    background-image: url(./Header/header.jpg);
+    background-color: rgb(184, 165, 165);
+}
+
+body{
+    background-color: white;
+}
+
+header {
+    margin: 0;
+    padding: 0;
     height: 100vh;
-    background-position: center;
-    background-size: cover;
+}
+
+#carouselExemple {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+
 }
 
 /* TITRES/P */
@@ -36,12 +56,18 @@ h1,h2,h3,h4{
     font-weight: 300;
 }
 
+h2{
+    font-size: 40px;
+}
+
 .home h1{
-    color: rgb(97, 93, 81);
+    color: white;
     font-size: 130px;
     font-weight: 950;
     text-transform: uppercase;
     text-align: center;
+    margin-top: 100px;
+    
 }
 
 /* BTN */
@@ -65,6 +91,12 @@ h1,h2,h3,h4{
 
 
 /* MENU */
+
+
+
+img{
+      align-items: baseline;
+}
 
 
 .menu-title{
@@ -91,23 +123,45 @@ h1,h2,h3,h4{
     text-transform: uppercase;
 }
 
- span{
+.pack span {
     font-weight: 100;
     font-size: 40%;
-    position: fixed;
+    position: relative;
     left: 2px;
-    top: -15px;
+    top: -15px ;
 }
 
 .pack{
      font-size: 10px;
      text-align: center;
      font-weight: 200;
-     
+     margin-bottom: 20px;
      top: 10px;
      right: 30px;
-     background-color: green;
+     background-color: rgb(146, 153, 160);
      color: white;
      border-radius: 14px;
      padding: 10px;
+}
+
+
+
+.picture-left{
+    float: left;
+}
+
+.box{
+    background-color: rgb(238, 224, 224);
+}
+
+.menu-title{
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* FOOTER */
+
+.text-muted{
+    text-align: center;
+
 }
